@@ -27,4 +27,4 @@ jobs:
       run: |
       pip install pytest
 
-      pytest main.py
+      python -m pytest tests/
