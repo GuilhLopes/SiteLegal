@@ -3,13 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifòlio</title>
+    <title>Meu Portfólio</title>
 
+    <style type="text/css">
+    body {
+        background-color: azure;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header, nav, section, footer {
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    section {
+        border: 1px solid #ddd;
+        padding: 20px;
+    }
+    
+    .projeto {
+        margin: 20px;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+    
+    .projeto img {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+    }
+    </style>
 </head>
 <body>
-    <header id="principal">
-        <h1>Teste</h1>
+    <header>
+        <h1>Guilherme Marques Lopes</h1>
+        <p>Analista de dados</p>
     </header>
-    
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Olá! Sou um Analista de dados focado em melhorar e propor soluções para problemas.</p>
+    </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <img src="static/images/projeto1.jpg" alt="Projeto 1">
+            <h3>Projeto 1</h3>
+            <p>Analise de dados para melhorar a taxa de cancelamento de uma empresa</p>
+            <a href="projeto1"> Meu Primeiro Projeto</a>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>GitHub: <a href="https://github.com/GuilhLopes">GuilhLopes</a></p>
+        <p>Você pode me contatar em: gm590872@gmail.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Guilherme Marques Lopes</p>
+    </footer>
 </body>
 </html>
