@@ -10,5 +10,3 @@ def Home():
 @app.route('/projeto1')
 def Projeto1():
     return render_template("projeto1.html")
-
-app.run(debug=True)
