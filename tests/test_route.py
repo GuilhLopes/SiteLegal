@@ -32,4 +32,4 @@ class TestHomeView(unittest.TestCase):
     # Testamos se o content_type da resposta da home esta correto
     def test_content_type(self):
         self.assertIn('text/html', self.response.content_type)
-        self.assertIn('text/htl', self.response_P1.content_type)
+        self.assertIn('text/html', self.response_P1.content_type)
