@@ -1,7 +1,7 @@
 name: Testes Automátizados
 
 on:
-  commit:
+  push:
     branches:
       - main
 
