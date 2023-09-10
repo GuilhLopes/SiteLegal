@@ -1,5 +1,5 @@
 
-![example workflow](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yml/badge.svg)
+[![Testes Automátizados](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yaml/badge.svg)](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yaml)
 
 # Portifólio
 Nesse portifólio conterá todos os arquivos que constroem o site.
