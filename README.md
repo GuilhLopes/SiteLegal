@@ -1,3 +1,59 @@
-# Portifólio
 
-Esse será um portifólio onde estárei adicionando o meu projeto.
+![example workflow](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yml/badge.svg)
+
+# Portifólio
+Nesse portifólio conterá todos os arquivos que constroem o site.
+# Guia de instalação
+
+Primeiramente devemos Clonar o repositório para sua maquina local com o comando pelo git bash:
+```
+git clone https://github.com/GuilhLopes/portf-lio-.git
+```
+A partir dai recomendados criar uma nova Branch para fazer as alterações sem ter o risco para dar erros no codigo da main:
+```
+git checkout -b 'nome da branch'
+```
+### Criando o ambiente vitual
+
+Após a criação de uma noca branch no seu repositório local iremos criar um ambiente virtual (.venv) e instalar as dependencias do projeto nesse ambiente.
+
+Para a criação do ambiente virtual utilizamos no cmd: 
+```
+python -m venv env
+```
+Após a criação devemos ativar o ambiente virtual:
+
+Código cmd:
+```
+.\env\Scripts\Activate.bat
+```
+Código PowerShell:
+
+```
+.\env\Scripts\Activate.ps1
+```
+Antes de irmos para o proximo passa certifique-se que o ambiente virtual está ativo, no seu cmd ou poweshell devem estar com o caminho:
+```
+(env) C:\Users\Usuário\Desktop\Portifólio\portf-lio->
+```
+
+Note que o caminho pode ser diferente, mais tevemos ter o ***(env)*** no começo do caminho.
+
+### Instalando dependencias
+
+Pronto, agora que temos o nosso ambiente virtual, podemos instalar as dependencias do nosso projeto utilizando:
+```
+pip install -r requirements.txt
+```
+
+Ao final desse comando poderemos ir no arquivo **run.py** e rodar o site no localHost.
+
+# Organização dos arquivos
+
+- *Arquivos em HTML:* Todos os arquivos HTML estarão na pasta */templates*.
+
+- *Arquivos app e run:* Estarão no pasta principal do repositório, e o arquivo run.py é utilizado para rodar o site e o app.py são as configurações das rotas.
+
+- *Arquivos de imagem:* O caminho pra os arquivos de imagem é */static/imagens*, nessa pasta estarão todos os arquivos de imagens utilizados.
+
+- *Arquivo de testes:* Esses arquivos estarão na pasta */tests*, serão os arquivos que farão o teste das funcionalidades.

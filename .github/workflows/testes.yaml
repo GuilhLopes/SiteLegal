@@ -1,6 +1,10 @@
 name: Testes Automátizados
 
-on: [pull_request, push]
+on: 
+ push:
+  branches: [main]
+ pull_request:
+  branches: [main]
 
 jobs:
   tests:
@@ -18,8 +22,7 @@ jobs:
       - name: Instalar Dependencia
         run: |
           python -m pip install --upgrade pip
-          pip install flask
-          pip install pytest
+          pip install -r requirements.txt
       
       - name: Rodar arquivo
         run: |
