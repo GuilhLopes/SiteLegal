@@ -1,9 +1,8 @@
+
 ![example workflow](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yml/badge.svg)
 
 # Portifólio
-
 Nesse portifólio conterá todos os arquivos que constroem o site.
-
 # Guia de instalação
 
 Primeiramente devemos Clonar o repositório para sua maquina local com o comando pelo git bash:
