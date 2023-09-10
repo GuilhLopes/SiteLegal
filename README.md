@@ -1,3 +1,5 @@
 # Portifólio
 
-Esse será um portifólio onde estárei adicionando o meu projeto.
+Nesse portifólio conterá todos os arquivos que constroem o site.
+
+# Guia de instalação
