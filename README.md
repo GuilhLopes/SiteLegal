@@ -1,4 +1,4 @@
-![example workflow](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yml/badge.svg)
+![example workflow](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yaml)
 
 # Portifólio
 ```
