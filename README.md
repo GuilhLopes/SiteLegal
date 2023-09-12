@@ -57,3 +57,11 @@ Ao final desse comando poderemos ir no arquivo **run.py** e rodar o site no loca
 - *Arquivos de imagem:* O caminho pra os arquivos de imagem é */static/imagens*, nessa pasta estarão todos os arquivos de imagens utilizados.
 
 - *Arquivo de testes:* Esses arquivos estarão na pasta */tests*, serão os arquivos que farão o teste das funcionalidades.
+
+# Fluxo de trabalho do Actions
+
+- Passo 1: irá criar uma maquina virtual ubuntu para rodar os códigos.
+- Passo 2: irá criar todos os arquivos do reposotório para a maquina virtual.
+- Passo 3: irá instalar e configurar o python na versão 3.11.4 para rodar os arquivos.
+- Passo 4: fará a instalação das dependencias do python de acordo com o *requirements.txt*.
+- Passo 5: Utilizará o pytest para fazer os testes configurados na pasta *tests*.
