@@ -1,8 +1,8 @@
 
 [![Testes Automátizados](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yaml/badge.svg)](https://github.com/GuilhLopes/portf-lio-/actions/workflows/testes.yaml)
 
-# Portifólio
-Nesse portifólio conterá todos os arquivos que constroem o site.
+# Portfólio
+Nesse portfólio conterá todos os arquivos que constroem o site.
 # Guia de instalação
 
 Primeiramente devemos Clonar o repositório para sua maquina local com o comando pelo git bash:
@@ -13,9 +13,9 @@ A partir dai recomendados criar uma nova Branch para fazer as alterações sem t
 ```
 git checkout -b 'nome da branch'
 ```
-### Criando o ambiente vitual
+### Criando o ambiente virtual
 
-Após a criação de uma noca branch no seu repositório local iremos criar um ambiente virtual (.venv) e instalar as dependencias do projeto nesse ambiente.
+Após a criação de uma nova branch no seu repositório local, iremos criar um ambiente virtual (.venv) e instalar as dependencias do projeto nesse ambiente.
 
 Para a criação do ambiente virtual utilizamos no cmd: 
 ```
@@ -32,7 +32,7 @@ Código PowerShell:
 ```
 .\env\Scripts\Activate.ps1
 ```
-Antes de irmos para o proximo passa certifique-se que o ambiente virtual está ativo, no seu cmd ou poweshell devem estar com o caminho:
+Antes de irmos para o proximo passa certifique-se que o ambiente virtual está ativo, no seu cmd ou powershell devem estar com o caminho:
 ```
 (env) C:\Users\Usuário\Desktop\Portifólio\portf-lio->
 ```
